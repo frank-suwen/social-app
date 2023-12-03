@@ -17,3 +17,4 @@ Skills
 - JavaScript
 - Vite.js
 - Chakra
+- JSX
