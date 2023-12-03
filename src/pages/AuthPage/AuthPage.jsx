@@ -10,6 +10,9 @@ const AuthPage = () => {
             </Box>
 
             {/* right hand side */}
+            <VStack spacing={4} align={"stretch"}>
+                <AuthForm />
+            </VStack>
         </Container>
     </Flex>
   )
