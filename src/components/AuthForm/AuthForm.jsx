@@ -26,6 +26,14 @@ const AuthForm = () => {
             </Text>
             <Box flex={2} h={"1px"} bg={"gray.400"} />
           </Flex>
+
+          {/* Google Login */}
+          <Flex alignItems={"center"} justifyContent={"center"} cursor={"pointer"}>
+            <Image src="/google.png" w={5} alt="Google Logo" />
+            <Text mx="2" color={"blue.500"}>
+              Login in with Google
+            </Text>
+          </Flex>
         </VStack>
       </Box>
     </>
