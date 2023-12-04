@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Image, Input, VStack } from "@chakra-ui/react"
+import { Box, Button, Flex, Image, Input, VStack, Text } from "@chakra-ui/react"
 import { useState } from "react"
 
 
@@ -17,6 +17,15 @@ const AuthForm = () => {
           <Button w={"full"} colorScheme="blue" size={"sm"} fontSize={14}>
             {isLogin ? "Log In": "Sign Up"}
           </Button>
+
+          {/* --------- or --------- */}
+          <Flex alignItems={"center"} justifyContent={"center"} my={4} gap={1} w={"full"}>
+            <Box flex={2} h={"1px"} bg={"gray.400"} />
+            <Text mx={1} color={"white"}>
+              OR
+            </Text>
+            <Box flex={2} h={"1px"} bg={"gray.400"} />
+          </Flex>
         </VStack>
       </Box>
     </>
