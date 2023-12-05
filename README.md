@@ -16,5 +16,5 @@ npm run dev
 Skills
 - JavaScript
 - Vite.js
-- Chakra
+- Chakra (UI library)
 - JSX
