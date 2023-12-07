@@ -18,3 +18,4 @@ Skills
 - Vite.js
 - Chakra (UI library)
 - JSX
+- React-icons (Icon library)
