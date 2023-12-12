@@ -1,4 +1,4 @@
-import { Flex, Box } from "@chakra-ui/react"
+import { Flex, Box, Text } from "@chakra-ui/react"
 import { useState } from "react"
 import { CommentLogo, NotificationsLogo, UnlikeLogo } from "../../assets/constants"
 
@@ -27,6 +27,16 @@ const PostFooter = () => {
           <CommentLogo />
         </Box>
       </Flex>
+
+      <Text fontSize="sm" fontWeight={700}>
+        asaprogrammer_{" "}
+        <Text as="span" fontWeight={400}>
+          Feeling good
+        </Text>
+      </Text>
+      <Text fontSize="sm" color={"gray"}>
+        View all 1,000 comments
+      </Text>
     </>
   )
 }
