@@ -1,6 +1,6 @@
 
 
-const SuggestedUser = () => {
+const SuggestedUser = ({ followers, name, avatar }) => {
   return (
     <div>SuggestedUser</div>
   )
